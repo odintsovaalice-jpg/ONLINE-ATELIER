@@ -1,16 +1,10 @@
-# ONLINE ATELIER — Cloudflare Pages
+# Online Atelier
 
-Проект подготовлен с плоской структурой: все исходные файлы лежат в корне архива, без папок `src` и `public`.
+Flat Vite + React project prepared for Cloudflare Pages. All project files are in the repository root (no src/ or public/ folders).
 
-## Деплой в Cloudflare Pages
+## Cloudflare Pages settings
 - Build command: `npm run build`
 - Build output directory: `dist`
-- Root directory: оставить пустым или `/`
-- Node.js: 20 или новее
+- Root directory: `/` or blank
 
-## Проверка исправления
-`index.html` загружает `/main.jsx`, а `main.jsx` находится в корне. Изображение-заглушка также находится в корне как `model-placeholder.svg`. Это устраняет прежнее несоответствие между путём `/src/main.jsx` и фактическим расположением файла.
-
-`visual-online-atelier.html` — отдельный статический HTML-макет внешнего вида. Основное работающее приложение открывается через `index.html`.
-
-Цены, ткани и остатки в проекте демонстрационные; подключение реальных API не выполнено.
+The app entry point is `main.jsx`; the constructor component is `AtelierConstructor.jsx`.
