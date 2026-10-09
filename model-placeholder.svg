@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 760">
+  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#e2e8f0"/><stop offset="1" stop-color="#cbd5e1"/></linearGradient></defs>
+  <rect width="600" height="760" rx="28" fill="url(#g)"/>
+  <circle cx="300" cy="170" r="72" fill="#94a3b8"/>
+  <path d="M185 650c12-210 45-330 115-330s103 120 115 330H185z" fill="#64748b"/>
+  <path d="M235 330h130l38 160H197l38-160z" fill="#475569" opacity=".85"/>
+  <text x="300" y="710" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" fill="#f8fafc">DEMO MODEL</text>
+</svg>

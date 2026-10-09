@@ -3,12 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Онлайн-ателье — конструктор индивидуального изделия" />
-    <title>Онлайн-ателье · Конструктор</title>
+    <meta name="theme-color" content="#f5f2ed" />
+    <meta name="description" content="Онлайн-ателье — создайте индивидуальное изделие: выберите модель, ткань, размер и декор. Прозрачный расчёт стоимости." />
+    <title>Онлайн-ателье — индивидуальный пошив</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+:root{color-scheme:light;--ink:#24221f;--muted:#817c74;--line:#e8e3dc;--paper:#fffdfa;--wash:#f5f2ed;--accent:#25231f}
+*{box-sizing:border-box}html{background:var(--wash)}body{margin:0!important;background:var(--wash)!important;color:var(--ink)!important;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif!important;letter-spacing:-.01em}
+.atelier-shell{background:var(--wash)!important;color:var(--ink)!important;padding:28px 22px 64px!important}.atelier-shell>.max-w-6xl{max-width:1240px!important}
+.atelier-shell header{padding:28px 0 30px;border-bottom:1px solid var(--line);margin-bottom:28px!important}.atelier-shell header svg{color:#8b7559!important;width:28px;height:28px}.atelier-shell header h1{font-family:Georgia,"Times New Roman",serif!important;font-weight:400!important;letter-spacing:-.045em!important;font-size:clamp(30px,4vw,46px)!important;color:var(--ink)!important}.atelier-shell header p{font-size:14px!important;color:var(--muted)!important;margin-top:10px!important}
+.atelier-shell .rounded-2xl{border-radius:4px!important}.atelier-shell .rounded-xl{border-radius:3px!important}.atelier-shell .rounded-lg{border-radius:3px!important}.atelier-shell .shadow-sm{box-shadow:0 8px 30px rgba(39,32,24,.035)!important}.atelier-shell .border,.atelier-shell [class*=border-slate-],.atelier-shell [class*=border-indigo-]{border-color:var(--line)!important}.atelier-shell .bg-white{background:var(--paper)!important}.atelier-shell .bg-indigo-50,.atelier-shell .bg-slate-50{background:#f0ece5!important}.atelier-shell .text-slate-500,.atelier-shell .text-slate-600,.atelier-shell .text-slate-400{color:var(--muted)!important}
+.atelier-shell section,.atelier-shell .bg-white.rounded-2xl{background:var(--paper)!important}.atelier-shell button{transition:all .18s ease;cursor:pointer}.atelier-shell button:hover{transform:translateY(-1px)}.atelier-shell button.bg-stone-900,.atelier-shell button.bg-indigo-600{background:var(--accent)!important;border-color:var(--accent)!important}.atelier-shell .text-stone-800,.atelier-shell .text-stone-900{color:var(--ink)!important}.atelier-shell button img{aspect-ratio:4/4.5;object-fit:cover;background:#ebe5dc}.atelier-shell .sticky{position:sticky}.atelier-shell input,.atelier-shell select{border-color:var(--line)!important;background:#fffdfa!important;color:var(--ink)!important}.atelier-shell .text-xl{font-family:Georgia,"Times New Roman",serif;font-weight:400!important}.atelier-shell .grid{gap:14px!important}.atelier-shell .p-5{padding:24px!important}.atelier-shell .mb-6{margin-bottom:26px!important}.atelier-shell .text-emerald-700{color:#61715d!important}.atelier-shell .bg-emerald-50{background:#edf0e9!important}
+@media(max-width:640px){.atelier-shell{padding:12px 14px 36px!important}.atelier-shell header{padding:20px 0 22px}.atelier-shell .p-5{padding:17px!important}.atelier-shell .sticky{position:static}.atelier-shell header .flex{align-items:flex-start}}
+</style>
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <script type="module" src="/main.jsx"></script>
   </body>
 </html>

@@ -1,11 +1,16 @@
-# Online Atelier — Cloudflare Pages
+# ONLINE ATELIER — Cloudflare Pages
 
-Исправленный Vite + React проект онлайн-ателье.
+Проект подготовлен с плоской структурой: все исходные файлы лежат в корне архива, без папок `src` и `public`.
 
-## Cloudflare Pages / Workers & Pages
+## Деплой в Cloudflare Pages
 - Build command: `npm run build`
 - Build output directory: `dist`
-- Root directory: `/`
-- Node.js: 20+ (рекомендуется 22)
+- Root directory: оставить пустым или `/`
+- Node.js: 20 или новее
 
-Главное исправление: добавлен корректный `src/main.jsx`, который является entry point приложения и монтирует React в `#root` из `index.html`.
+## Проверка исправления
+`index.html` загружает `/main.jsx`, а `main.jsx` находится в корне. Изображение-заглушка также находится в корне как `model-placeholder.svg`. Это устраняет прежнее несоответствие между путём `/src/main.jsx` и фактическим расположением файла.
+
+`visual-online-atelier.html` — отдельный статический HTML-макет внешнего вида. Основное работающее приложение открывается через `index.html`.
+
+Цены, ткани и остатки в проекте демонстрационные; подключение реальных API не выполнено.
