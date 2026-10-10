@@ -1,10 +1,16 @@
-# Online Atelier
+# Сам себе модельер — прототип онлайн-ателье
 
-Flat Vite + React project prepared for Cloudflare Pages. All project files are in the repository root (no src/ or public/ folders).
-
-## Cloudflare Pages settings
+## Сборка для Cloudflare Pages
 - Build command: `npm run build`
 - Build output directory: `dist`
-- Root directory: `/` or blank
+- Root directory: `/` или пустое поле
 
-The app entry point is `main.jsx`; the constructor component is `AtelierConstructor.jsx`.
+## Локальный запуск
+```bash
+npm install
+npm run dev
+```
+
+Все исходные файлы проекта находятся в корне репозитория. Папка `dist` создаётся автоматически при сборке — загружать её в GitHub вручную не нужно.
+
+`visual-online-atelier.html` — отдельный статический макет визуальной концепции. Основное приложение запускается через `index.html` и `main.jsx`.
